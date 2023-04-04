@@ -1,0 +1,85 @@
+﻿@model PlancherExpert.Models.Superviseur
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Sign Up</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="flex h-screen justify-center items-center">
+        <form class="w-full max-w-lg" asp-action="Signup" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="flex flex-wrap -mx-3 mb-6">
+              <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+                <label asp-for="Nom" class="block uppercase tracking-wide text-black-700 text-xs font-bold mb-2" for="grid-first-name">
+                  Nom
+                </label>
+                <input asp-for="Nom" class="appearance-none block w-full bg-gray-200 text-gray-700 border  rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Jane" required>
+                <span asp-validation-for="Nom" class="text-danger"></span>
+              </div>
+              <div class="w-full md:w-1/2 px-3">
+                <label asp-for="Prenom" class="block uppercase tracking-wide text-black-700 text-xs font-bold mb-2" for="grid-last-name">
+                  Prénom
+                </label>
+                <input asp-for="Prenom" class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder="Doe" required>
+                <span asp-validation-for="Prenom" class="text-danger"></span>
+            </div>
+            </div>
+            <div class="flex flex-wrap -mx-3 mb-6">
+              <div class="w-full px-3">
+                <label asp-for="Email" class="block uppercase tracking-wide text-black-700 text-xs font-bold mb-2" for="grid-password">
+                  Email
+                </label>
+                <input asp-for="Email" class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="Email" type="email" placeholder="xxxxxx@gmail.com" required>
+                <span asp-validation-for="Email" class="text-danger"></span>
+              </div>
+              <div class="w-full px-3 py-2">
+                <label asp-for="MotDePasse" class="block uppercase tracking-wide text-black-700 text-xs font-bold mb-2" for="grid-password">
+                  MOT DE PASSE
+                </label>
+                <input  asp-for="MotDePasse" class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-password" type="password" placeholder="******************" required>
+                <span asp-validation-for="MotDePasse" class="text-danger"></span>
+              </div>   
+            </div>
+            <div class="flex flex-wrap -mx-3 mb-2">
+              <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
+                <label asp-for="Ville" class="block uppercase tracking-wide text-black-700 text-xs font-bold mb-2" for="grid-city">
+                  ville
+                </label>
+                <input asp-for="Ville" class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-city" type="text" placeholder="Albuquerque" required>
+                <span asp-validation-for="Ville" class="text-danger"></span>
+            </div>
+              <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
+                <label asp-for="Zip" class="block uppercase tracking-wide text-black-700 text-xs font-bold mb-2" for="grid-zip">
+                  Zip
+                </label>
+                <input asp-for="Zip" class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-zip" type="text" placeholder="90210" required>
+                <span asp-validation-for="Zip" class="text-danger"></span>
+            </div>
+              <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
+                <label asp-for="Tel" class="block uppercase tracking-wide text-black-700 text-xs font-bold mb-2" for="grid-city">
+                  numéro de téléphone
+                </label>
+                <input asp-for="Tel" class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-city" type="text" placeholder="212-611-443220" required>
+                <span asp-validation-for="Tel" class="text-danger"></span>
+            </div>
+            </div>
+
+            <div class="md:flex md:items-start pt-10 ">
+              <div class="md:w-full">
+                <button class=" w-full shadow bg-blue-500 hover:bg-blue-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="submit">
+                  S'inscrire
+                </button>
+              </div>
+            </div>
+          </form>
+    </div>
+</body>
+</html>

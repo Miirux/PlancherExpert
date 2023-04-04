@@ -1,0 +1,50 @@
+﻿@model IEnumerable<PlancherExpert.Models.CouvrePlancher>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "_ClientLayout";
+}
+
+<h1>Nos Produits</h1>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TypePlancher)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PrixMat)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PrixMainOeuvre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Promotion)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TypePlancher)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PrixMat)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PrixMainOeuvre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Promotion)
+            </td>
+            <td>
+                <a asp-action="Create" asp-route-id="@item.Id">Create</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
