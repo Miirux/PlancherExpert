@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <clipPath id="clip-Web_1920_1">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_1" data-name="Web 1920 – 1" clip-path="url(#clip-Web_1920_1)">
+    <rect width="1920" height="1080" fill="#fff"/>
+    <text id="P" transform="translate(868 630)" fill="#b12d80" font-size="516" font-family="BrushScriptMT, Brush Script MT"><tspan x="0" y="0">P</tspan></text>
+    <text id="E" transform="translate(1190 564)" fill="#a92222" font-size="300" font-family="Magneto-Bold, Magneto" font-weight="700"><tspan x="0" y="0">E</tspan></text>
+    <text id="LANCHER" transform="translate(906 621)" fill="#a92222" font-size="100" font-family="BrushScriptMT, Brush Script MT"><tspan x="0" y="0">LANCHER</tspan></text>
+    <text id="XPERT" transform="translate(1257 542)" fill="#b12d80" font-size="100" font-family="BrushScriptMT, Brush Script MT"><tspan x="0" y="0">XPERT</tspan></text>
+    <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="22" cy="21" rx="22" ry="21" transform="translate(1280 306)" fill="#a92222"/>
+    <ellipse id="Ellipse_3" data-name="Ellipse 3" cx="22" cy="21" rx="22" ry="21" transform="translate(1431 558)" fill="#a92222"/>
+    <ellipse id="Ellipse_5" data-name="Ellipse 5" cx="22" cy="21" rx="22" ry="21" transform="translate(1387 371)" fill="#b12d80"/>
+    <ellipse id="Ellipse_6" data-name="Ellipse 6" cx="22" cy="21" rx="22" ry="21" transform="translate(1119 264)" fill="#b12d80"/>
+    <path id="Tracé_1" data-name="Tracé 1" d="M22,0C34.15,0,358.793,20.367,358.793,20.367S34.15,42,22,42-346.892,24.2-346.892,24.2,9.85,0,22,0Z" transform="translate(1212 442)" fill="#a92222"/>
+    <ellipse id="Ellipse_8" data-name="Ellipse 8" cx="22" cy="21" rx="22" ry="21" transform="translate(932 497)" fill="#a92222"/>
+    <g id="Ellipse_9" data-name="Ellipse 9" transform="translate(1490 392)" fill="#b12d80" stroke="#707070" stroke-width="1">
+      <ellipse cx="22" cy="21" rx="22" ry="21" stroke="none"/>
+      <ellipse cx="22" cy="21" rx="21.5" ry="20.5" fill="none"/>
+    </g>
+    <ellipse id="Ellipse_10" data-name="Ellipse 10" cx="22" cy="21" rx="22" ry="21" transform="translate(1075 392)" fill="#a92222"/>
+    <path id="Tracé_2" data-name="Tracé 2" d="M22,0,44,21,22,42,0,21Z" transform="translate(1211 442)" fill="#b12d80"/>
+    <path id="Tracé_3" data-name="Tracé 3" d="M-.016-.669a89.513,89.513,0,0,1,15.344-.614A26.072,26.072,0,0,1,25.689,1.606c1.388,1.123,2.023,3.027.4,5.163A12.231,12.231,0,0,1,22.7,9.941a34.838,34.838,0,0,1-5.2,2.506A106.027,106.027,0,0,1,6.745,16.114c-7.085,1.841-14.941,2.68-17.7,3.4C-16.081,20.848-6.437,13.155-3.7,8.14A41.21,41.21,0,0,0-.016-.669Z" transform="translate(1315 573)" fill="#b12d80"/>
+    <path id="Tracé_4" data-name="Tracé 4" d="M-.039-1.283a106.635,106.635,0,0,1,15.5-.344A27.139,27.139,0,0,1,26.086,1.39c1.388,1.123,1.626,3.243,0,5.379A12.231,12.231,0,0,1,22.7,9.941a34.838,34.838,0,0,1-5.2,2.506A106.027,106.027,0,0,1,6.745,16.114c-7.085,1.841-14.941,2.68-17.7,3.4-5.127,1.336,4-6.566,7.257-11.372A22,22,0,0,0-.039-1.283Z" transform="translate(1483.691 494.426)" fill="#a92222"/>
+    <ellipse id="Ellipse_11" data-name="Ellipse 11" cx="22" cy="21" rx="22" ry="21" transform="translate(993 634)" fill="#b12d80"/>
+    <ellipse id="Ellipse_12" data-name="Ellipse 12" cx="22" cy="21" rx="22" ry="21" transform="translate(1588 446)" fill="#a92222"/>
+  </g>
+</svg>
